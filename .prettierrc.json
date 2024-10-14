@@ -9,5 +9,6 @@
   "arrowParens": "always",
   "jsxSingleQuote": false,
   "bracketSameLine": false,
-  "endOfLine": "lf"
+  "endOfLine": "lf",
+  "importOrder": ["^@core/(.*)$", "<THIRD_PARTY_MODULES>", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"]
 }
